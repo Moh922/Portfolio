@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>MOHTech-Frontend Deveoper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-lg font-bold">MOHTech</div>
+            <div class=" hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#work">My Work</a>
+                <a href="#blogs">My Blog</a>
+                <a href="#hire"> <button class="px-6 py-2 bg-theme font-bold">Hire me</button> </a>
+            </div>
+            <div class="md:hidden" >
+               <a href="#">
+                <svg id="menubar" class="cursor:pointer" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+               </a> 
+                <div class="menu-icons md-hidden" id="menuIcons">
+                    <a href="#" class="text-selected-text">Home</a>
+                    <a href="#work">My Work</a>
+                    <a href="#blogss">My Blog</a>
+                    <a href="#hire"> <button class="px-6 py-2 bg-theme font-bold">Hire me</button> </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full ">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
+                    </a>
+                    <a href="#blogs" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Blogs</span>
+                    </a>
+                    <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br> beautiful web experiences.</h1>
+                <div class="w-full flex justify-center md:justify-start">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+                       <a href="#work"> <span>View my work.</span>  </a>
+                    </button>
+                </div>
+            </div class="sm:hidden">
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--a67XH0QN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/xndmxrfhliweofif9jty.png" alt="Man" class="w-60% md:absolute -mt-9 mr-2 md:mt-2 right-0 -z-1" id="Man">
+        </div>
+    </div>
+
+    <!-------------------------My Work------------------------------------->    
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full mt-64">
+            <h2 id="work" class="secondary-title">My work</h2>
+            <p class="section-paragraph">I’ve had the pleasure of working as an Intern at Sidehustle, designing and implementing both frontend.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-44">
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">To-do App</h2>
+                        <h4 class="project-technologies">HTML/CSS/JS</h4>
+                    </div>
+                    <img src="./img/IMG-20220921-WA0032.jpg" class="project-img bg-nav object-cover">
+                    <a href="https://moh922.github.io/TaskBot-To-do-list/" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">URL Shortener APP</h2>
+                        <h4 class="project-technologies">HTML/CSS/JS</h4>
+                    </div>
+                    <img src="./img/desktop-pic.png" class="project-img w-full bg-nav h-40 lg:h-72 object-cover">
+                    <a href="https://moh922.github.io/URL-shortener-/" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Quiz App</h2>
+                        <h4 class="project-technologies">HTML/CSS/JS</h4>
+                    </div>
+                    <img src="./img/Screenshot (81).png" class="project-img w-full  md:block bg-nav h-36 lg:h-72 object-cover">
+                    <a href="https://moh922.github.io/Quiz-App/" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                
+                <!----------------------
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">task manager</h2>
+                        <h4 class="project-technologies">ReactJS</h4>
+                    </div>
+                    <img src="img/project-4.jpg" class="project-img">
+                    <a href="#" class="project-link" target="blank">Go to Video</a>
+                </div> -->
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Food App</h2>
+                        <h4 class="project-technologies">HTML/CSS/JS</h4>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1666803685415-c01c66c9ddaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="project-img w-full md:block bg-nav h-36 lg:h-72 object-cover">
+                    <a href="https://moh922.github.io/Food/" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Audio Player</h2>
+                        <h4 class="project-technologies">HTML/CSS/JS</h4>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1458560871784-56d23406c091?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="project-img w-full md:block bg-nav h-36 lg:h-72 object-cover">
+                    <a href="https://apps.volt.build/b960265c-d47d-40c5-9eae-c332f3be65be/android.debug.apk" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">React Meetups</h2>
+                        <h4 class="project-technologies">ReactJs</h4>
+                    </div>
+                    <img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/01/pasted-image-0-2.png" class="project-img w-full md:block bg-nav h-36 lg:h-72 object-cover">
+                    <a href="https://moh922.github.io/My-react-app/" class="project-link" target="blank">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!----------------------------------------Blog-------------------------------------->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="blogs" class="secondary-title">Blogs</h2>
+            <p class="section-paragraph">I’ve had the pleasure of publishing some of my frontend workd.</p>
+
+            <!-- Clients -->
+            <div class="space-y-12 my-16">
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-2">
+                        <img class="blog-img" src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" alt="medium">
+                    </div>
+
+                    <!-- Client info -->
+                    <a href="https://medium.com/@jamium7/designing-a-taskbot-to-do-list-app-done-by-front-end-development-team1-8d88a2363b93?source=user_profile---------1----------------------------">
+                        <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                            <h3 class="text-white text-3xl font-semibold">Taskit To do List Web.</h3>
+    
+                            <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div class="badge">Frontend development</div>
+                            </div>
+                            <p class="text-secondary">Detailed step by step process of achieving the project.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img class="blog-img" src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" alt="medium">
+                    </div>
+                    <!-- Client info -->
+                    <a href="https://medium.com/@jamium7/making-of-a-bub-it-and-cut-it-url-shortener-eba1c3ea4662?source=user_profile---------0----------------------------">
+                        <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                            <h3 class="text-white text-3xl font-semibold">URL Shortener.</h3>  
+                            <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div class="badge">Frontend development</div>
+                            </div>    
+                            <p class="text-secondary">Detailed step by step process of achieving the project.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+                    <!-- Client logo -->
+                    <div class="mb-6 lg:mb-0">
+                        <img class="blog-img" src="https://cdn-icons-png.flaticon.com/512/5968/5968885.png" alt="medium">
+                    </div>
+                    <!-- Client info -->
+                    <a href="">
+                        <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+                            <h3 class="text-white text-3xl font-semibold">Quiz App.</h3>
+                            <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                                <div class="badge">Frontend development</div>
+                            </div>
+                            <p class="text-secondary">Detailed step by step process of achieving the project.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!-- Hire me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="hire" class="secondary-title">Hire me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+                <form action="mailto:jamium7@gmail.com" method="post" enctype="text/plain">
+                    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+                        <div class="space-y-12">
+                            <div>
+                                <label class="text-white block mb-6 text-xl font-bold">Name</label>
+                                <input class="w-full border border-input-border bg-input px-4 py-4">
+                            </div>
+                            <div>
+                                <label class="text-white block mb-6 text-xl font-bold">Email</label>
+                                <input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+                            </div>
+                            <div>
+                                <label class="text-white block mb-6 text-xl font-bold">Message</label>
+                                <textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+                        </div>
+                </form>
+				
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">+234 9030 555 945</p>
+						<a href="mailto:jamium7@gmail.com" class="text-secondary underline mt-3 block">jamium7@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="flex mt-16 space-x-6">
+							<!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/muhammed-muhammed-aa275518a/" class="social-media-link">
+                                <img class="linked" src="https://banner2.cleanpng.com/20180417/ifw/kisspng-computer-icons-linkedin-social-media-5ad63de29fe542.6407539515239899866549.jpg" alt="LinkedIn">
+                            </a>
+                            <!----Github-->
+                            <a href="https://github.com/Moh922" class="social-media-link">
+                                <img class="git" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github">
+                            </a>
+							<!-- Twitter -->
+							<a href="https://twitter.com/MUHAMMEDOLAYIN5" class="social-media-link">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="Twitter">								
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+</body>
+</html>
